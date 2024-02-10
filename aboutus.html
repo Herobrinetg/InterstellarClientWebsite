@@ -1,19 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
-    <link rel="stylesheet" href="index.css">
+    <title>About Us</title>
     <style>
         body {
-            background-image: url(background.png);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            background-image: url('background.png'); 
+            background-size: cover;
             background-position: center;
+            color: #fff; 
+            margin: 0;
+            padding: 0;
+        }
 
-            color: aqua;
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1, h2, h3, h4 {
+            color: #87cefa; 
+
+        p {
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer {
+            background-color: #ff66b2;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .question-box {
+            border: 2px solid #ff66b2;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: rgba(255, 102, 178, 0.1);
         }
 
         #box1 {
@@ -21,142 +68,62 @@
             width: 500px;
             height: 25px;
             font-size: 25px;
-
-
-            font-family: 'Courier New', Courier, monospace, 'protest strike'
-
+            font-family: 'Courier New', Courier, monospace, 'protest strike';
+            margin-top: 20px;
         }
     </style>
 </head>
+<body>
 
 <main>
+    <div class="container">
+        <h1>About Us</h1>
 
-    <body>
-        <div>
+        <section class="question-box">
+            <h2>About the Owners</h2>
+            <p>This Client is owned by <b>HerobrineTG</b>, who is the Staff Team Manager and Server Manager, and the initial owner of the Interstellar Client. Currently, he is learning TypeScript.</p>
+        </section>
+        
+        <section class="question-box">
+            <h2>What is Special About This Client</h2>
+            <p>This Client supports cracked Minecraft servers and offers all cosmetics for free. It provides FPS boost, PVP, and SkyBlock mod optimization.</p>
+        </section>
 
-            <h1>About the owners</h1>
+        <section class="question-box">
+            <h2>About Mods</h2>
+            <p>The mod is developed by <b>GinaFro ✦</b>, a professional Java developer.</p>
+        </section>
 
+        <section class="question-box">
+            <h2>What's Special About The Mod</h2>
+            <p>This mod works on all cracked servers and makes it easy to find secrets in the game. It's particularly useful for those who haven't memorized secrets, as it allows them to immediately see where a secret is located.</p>
+            <p>For more information about the mod, <a href="https://github.com/GinaFro/FakepixelDungeonRooms?tab=readme-ov-file">click here</a>.</p>
+        </section>
 
+        <section class="question-box">
+            <h2>Contact Us</h2>
             <ul>
-                <li>
-                    <p>This Client is owned by <b>HerobrineTG</b></p><br>
-                </li>
+                <div class="social-icons">
+                    <a href="https://dsc.gg/interstellarclient">
+                        <ion-icon name="logo-discord"> </ion-icon>
+                    </a>
+                    
+                    <a href="https://www.youtube.com/@InterstellarClient">
+                        <ion-icon name="logo-youtube"> </ion-icon>
+                    </a>
+                    
+                    <a href="https://discord.com/invite/yb8MPWZ6tm">
+                        <ion-icon name="information-circle-outline"> </ion-icon>
+                    </a>
             </ul>
-            <ul>
-                <li>
-                    <p>HerobrineTG is currently the one who is the Staff Team Manager,Server Manager and he is the
-                        initial owner of the Interstellar Client.Currently he is learning typescript.</p>
-                </li>
-            </ul>
-
-
-
-
-            <h2> <u>What is Special About This Client</u></h2>
-
-            <ul>
-                <li>
-                    <p>This Client is Special because it Support <b>Cracked Minecraft Server</b>. Also in many clients
-                        cosmetics are not free but in this Client <b>Every Cosmetics we have made until now everyone is
-                            free</b> and still we are making new cosmetics will also be available for free too.</p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h4>Also this gives FPS boost, PVP, SkyBlock mod Optimization</h4>
-            </ul>
-            </li>
-
-            <ul>
-
-                <ul>
-                    <li>
-                        <h2> <u>About Mods</u> </h2>
-                    </li>
-                </ul>
-                <li>
-                    <p>The mod is developed by <b>GinaFro ✦</b><br>
-                    </p>
-                </li><br>
-
-                <sub-header>
-                    <h3>About the GinaFro ✦</h3>
-                </sub-header>
-                <p>GinaFro ✦ is a proffesional java developer</p>
-
-
-
-
-                <header>
-                    <ul>
-                        <li>
-                            <h3> <u>What's Special About The Mod</u>
-                </header>
-                </h3>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <p>This mod <b>also works on all cracked server.</b>
-                        But this is a skyblock mod here it is all you need to know about the mod</p>
-                </li>
-            </ul>
-
-            <h4>Why is this useful?</h4>
-            <ul>
-                <li>
-                    <p>For those who haven't memorized secrets, trying to find secrets takes forever, especially when
-                        you have to spend a ton of time searching through DSG channels for the right room. This mod
-                        makes it easy as you can immediately see where a secret is.</p>
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <p>Want to know more about the mod then, <a
-                            href="https://github.com/GinaFro/FakepixelDungeonRooms?tab=readme-ov-file">Click here</a>
-                    </p>
-                </li>
-            </ul>
-
-
-
-
-
-
-
-
-            </ul>
-</main>
-<footer></footer>
-
-
-
-
-
-<ul>
-    <li><a target="_self" href="https://discord.gg/AUq37aRKNN">Ofiicial Discord Support</a><br></li>
-</ul>
-<ul>
-    <li><a target="_self" href="https://discord.gg/yb8MPWZ6tm">Ofiicial Mod Discord Support</a><br></li>
-</ul>
-<ul>
-    <li><a target="_self" href="https://www.youtube.com/@InterstellarClient">Official Youtube Channel</a></li>
-</ul><br>
-</div>
-
-<div id="box1 "><b>All CopyRight Owns by HerobrineTG</b></div>
-
-
-
-
+        </section>
+    </div>
 </main>
 
-
-
-
-
-
+<footer>
+    <p>© 2024 Interstellar Client. All Rights Reserved.</p>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-
 </html>
