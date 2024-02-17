@@ -53,9 +53,33 @@
                 opacity: 1;
             }
         }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #333;
+            padding: 14px 0;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #555;
+        }
     </style>
 </head>
 <body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="forums.html">Forums</a>
+        <a href="tos.html">T.O.S</a>
+        <a href="privacypolicy"> Policy </a>
+    </div>
     <div class="container">
         <h1 class="text">Interstellar Client</h1>
     </div>
