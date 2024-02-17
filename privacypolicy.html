@@ -3,66 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheets/index.css">
-    <title>Interstellar Client | Privacy Policy</title>
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .text:before {
+            content: "";
+            position: absolute;
+            background-color: #fff;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+            transform: translateY(5px);
+            transition: all 0.2s ease-in-out;
+        }
+        .text:hover:before {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #333;
+            padding: 14px 0;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a class="nav" href="index.html">Home</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="containerTos">
-        <div class="contentTos">
-            <h1 class="headTos">Interstellar Client<br>Privacy Policy</h1>
-            <p class="paraTos">Last Updated: 2 | 02 | 2024
-
-                Thank you for using Interstellar Client! This Privacy Policy outlines how we collect, use, disclose, and protect your information when you use our Minecraft client.
-                
-                1.Information We Collect
-                
-                a. User-Provided Information: We may collect information that you provide when using Interstellar Client, including but not limited to your username and any other information you choose to share.
-                
-                b. Automatically Collected Information: We may collect certain information automatically, such as your IP address, device information, and usage data.
-                
-                2.Use of Information
-                
-                We may use the collected information for the following purposes:
-                
-                a. To provide and maintain Interstellar Client.
-                
-                b. To improve, personalize, and optimize the client.
-                
-                c. To monitor usage patterns and analyze user preferences.
-                
-                3.Sharing of Information
-                
-                We do not sell, trade, or otherwise transfer your personally identifiable information to third parties. However, we may share non-personal information with third parties for analytics and marketing purposes.
-                
-                4.Data Security
-                
-                We take reasonable measures to protect the security of your information. However, please be aware that no method of transmission over the internet or electronic storage is 100% secure.
-                
-                5.Third-Party Links
-                
-                Interstellar Client may contain links to third-party websites. We are not responsible for the privacy practices or content of these third-party sites.
-                
-                6.Children's Privacy
-                
-                Interstellar Client is not directed to children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and become aware that your child has provided us with personal information, please contact us. Interstellar Client may use some of Discord's features and sometimes the features in the client may be contacted to Discord as Discord's global user age requirement is 13 or above.
-                
-                7.Changes to this Privacy Policy
-                
-                We reserve the right to update our Privacy Policy at any time. We will notify you of any changes by posting the new Privacy Policy on this page.
-                
-                8.Contact Information
-                
-                If you have any questions about this Privacy Policy, please contact us at our Discord Server.
-                
-                By using Interstellar Client, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.</p>
-        </div>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="https://dsc.gg/interstellarclient">Contact Us</a>
+        <a href="forums.html">Forums</a>
+        <a href="tos.html">T.O.S</a>
+        <a href="privacypolicy.html"> Policy </a>
+    </div>
+    <div class="container">
+        <h1 class="text">Privacy Policy</h1>
+        <p>Interstellar Client collects and uses your information in the following ways:</p>
+        <ol>
+            <li>User-Provided Information: We may collect information that you provide when using Interstellar Client, including but not limited to your username and any other information you choose to share.</li>
+            <li>Automatically Collected Information: We may collect certain information automatically, such as your IP address, device information, and usage data.</li>
+            <li>To provide and maintain Interstellar Client.</li>
+            <li>To improve, personalize, and optimize the client.</li>
+            <li>To monitor usage patterns and analyze user preferences.</li>
+        </ol>
+        <p>We do not sell, trade, or otherwise transfer your personally identifiable information to third parties. However, we may share non-personal information with third parties for analytics and marketing purposes.</p>
+        <p>We take reasonable measures to protect the security of your information. However, please be aware that no method of transmission over the internet or electronic storage is 100% secure.</p>
+        <p>Interstellar Client may contain links to third-party websites. We are not responsible for the privacy practices or content of these third-party sites.</p>
+        <p>Children's Privacy: Interstellar Client is not directed to children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and become aware that your child has provided us with personal information, please contact us.</p>
+        <p>Changes to this Privacy Policy: We reserve the right to update our Privacy Policy at any time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+        <p>Contact Information: If you have any questions about this Privacy Policy, please contact us at our Discord Server.</p>
     </div>
 </body>
 </html>
