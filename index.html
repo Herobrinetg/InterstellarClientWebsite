@@ -1,103 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interstellar Client | Home</title>
-    <link rel="stylesheet" href="stylesheets/index.css" type="text/css">
-
-
-
-    <!-- Navigation bar -->
+    <title>Interstellar Client</title>
     <style>
         body {
-            margin: 0px;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('background.png') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
         }
-
-        main {
-            margin-left: 20px;
-            margin-right: 20px;
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgba(63, 3, 86, 0.8);
+            backdrop-filter: blur(5px);
         }
-
-        .navbar ul {
-            list-style-type: none;
-            background-color: black;
-            padding: 0px;
-            margin: 0px;
-            overflow: hidden;
-        }
-
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            padding: 15px;
-            display: block;
+        .text {
+            font-size: 3rem;
+            color: #fff;
             text-align: center;
+            animation: fadeIn 2s ease-in-out;
+            position: relative;
         }
-
-        .navbar a:hover {
-            background-color: aqua;
+        .text:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -1px;
+            height: 2px;
+            background-color: #fff;
+            opacity: 0;
+            transform: translateY(5px);
+            transition: all 0.2s ease-in-out;
         }
-
-        .navbar li {
-            float: left;
-
+        .text:hover:before {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
         }
     </style>
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="fourms.html">Forums</a></li>
-            <li><a href="aboutus.html">About us</a></li>
-            <li><a href="https://discord.gg/dyHNVUqnsx">Contact Us</a></li>
-            <li><a href="login.html">Log in</a></li>
-
-
-
-
-        </ul>
-    </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </head>
-
 <body>
-    <header>
-
-
-        <h1 class="head1">Interstellar Client</h1>
-        <p class="para1">The best client to use for general purpose like PvP, FPS Optimization and skyblock!</p>
-        </div>
-        </div>
-        <footer>
-            <ul>
-                <li>
-                    <p><a class="nav" href="tos.html">Terms of Service</a></p>
-                </li>
-                <li>
-                    <p><a class="nav" href="privacypolicy.html">Privacy Policy</a></p>
-                </li>
-            </ul>
-        </footer>
+    <div class="container">
+        <h1 class="text">Interstellar Client</h1>
+    </div>
 </body>
-
 </html>
-<!DOCTYPE html>
-<html>
-
-<head>
