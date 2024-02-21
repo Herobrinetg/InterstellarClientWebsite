@@ -5,75 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-image: url('background.png'); 
-            background-size: cover;
-            background-position: center;
-            color: #fff; 
-            margin: 0;
-            padding: 0;
-        }
+      body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+}
 
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-        }
+.navbar {
+    background-color: #8700ff; /* Dark purple color */
+    overflow: hidden;
+}
 
-        .container {
-            max-width: 800px;
-            padding: 20px;
-            text-align: center;
-        }
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-        h1, h2, h3, h4 {
-            color: #87cefa; 
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
 
-        p {
-            line-height: 1.5;
-        }
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
 
-        ul {
-            list-style: none;
-            padding: 0;
-        }
+.container {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
 
-        footer {
-            background-color: #ff66b2;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
+h1, h2, h3, h4 {
+    color: #87cefa; 
+}
 
-        footer a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
+p {
+    line-height: 1.5;
+}
 
-        .question-box {
-            border: 2px solid #ff66b2;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            background-color: rgba(255, 102, 178, 0.1);
-        }
+ul {
+    list-style: none;
+    padding: 0;
+}
 
-        #box1 {
-            border: 5px solid;
-            width: 500px;
-            height: 25px;
-            font-size: 25px;
-            font-family: 'Courier New', Courier, monospace, 'protest strike';
-            margin-top: 20px;
-        }
+footer {
+    background-color: #ff66b2;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.question-box {
+    border: 2px solid #ff66b2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 102, 178, 0.1);
+}
+
+#box1 {
+    border: 5px solid;
+    width: 500px;
+    height: 25px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace, 'protest strike';
+    margin-top: 20px;
+}
     </style>
 </head>
 <body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="#">Contact Us</a>
+    <a href="forums.html">Forums</a>
+    <a href="tos.html">T.O.S</a>
+    <a href="privacypolicy.html"> Policy </a>
+</div>
 
 <main>
     <div class="container">
@@ -89,6 +118,7 @@
             <p>This Client supports cracked Minecraft servers and offers all cosmetics for free. It provides FPS boost, PVP, and SkyBlock mod optimization.</p>
         </section>
 
+    
         <section class="question-box">
             <h2>About Mods</h2>
             <p>The mod is developed by <b>GinaFro ✦</b>, a professional Java developer.</p>
